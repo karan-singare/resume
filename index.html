@@ -13,6 +13,7 @@
   <body>
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
+
         <div class="cell large-8">
 
           <div class="card">
@@ -239,7 +240,7 @@
           <div class="card">
             <div class="card-divider h3 align-center">Testimonials</div>
             <div class="card-section">
-              <div class="orbit" role="region" aria-label="Corousel Title" data-orbit data-auto-play>
+              <div class="orbit" role="region" aria-label="Corousel Title" data-orbit data-auto-play='false'>
                 <ul class="orbit-container">
                   <li class="orbit-slide is-active">
                     <blockquote class="text-center">
@@ -273,16 +274,224 @@
                       <cite>Karan Singare</cite>
                     </blockquote>
                   </li>
+                  <li class="orbit-slide">
+                    <blockquote class="text-center">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ipsum nesciunt in saepe porro, doloribus qui accusamus repellat sed nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, quia!
+                      </p>
+                      <cite>Karan Singare</cite>
+                    </blockquote>
+                  </li>
                 </ul>
                 <nav class="orbit-bullets">
-
+                  <button class="is-acitve" data-slide='0'>
+                    <span class="show-for-sr">Caption for Slide #1</span>
+                    <span class="show-for-sr">Current Slide</span>
+                  </button>
+                  <button class="is-acitve" data-slide='1'>
+                    <span class="show-for-sr">Caption for Slide #3</span>
+                  </button>
+                  <button class="is-acitve" data-slide='2'>
+                    <span class="show-for-sr">Caption for Slide #4</span>
+                  </button>
+                  <button class="is-acitve" data-slide='3'>
+                    <span class="show-for-sr">Caption for Slide #5</span>
+                  </button>
+                  <button class="is-acitve" data-slide='4'>
+                    <span class="show-for-sr">Caption for Slide #6</span>
+                  </button>
                 </nav>
               </div>
             </div>
           </div>
 
+        </div>
+
+        <div class="cell large-4">
+
+          <div class="card">
+            <h2 class="card-divider h2 align-center">Contact Info</h2>
+            <div class="card-section">
+              <div class="media-object">
+                <div class="media-object-section">
+                  <div class="fa-layers fa-fw fa-2x">
+                    <i class="fas fa-circle icon-primary"></i>
+                    <i class="fas fa-male icon-white" data-fa-transform="shrink-8"></i>
+                  </div>
+                </div>
+                <div class="media-object-section main-section">
+                  Karan Singh Singare
+                  <hr>
+                </div>
+              </div>
+              <div class="media-object">
+                <div class="media-object-section">
+                  <div class="fa-layers fa-fw fa-2x">
+                    <i class="fas fa-circle icon-primary"></i>
+                    <i class="fas fa-calendar-alt icon-white" data-fa-transform="shrink-8"></i>
+                  </div>
+                </div>
+                <div class="media-object-section main-section">
+                  6th of December
+                  <hr>
+                </div>
+              </div>
+
+              <div class="media-object">
+                <div class="media-object-section">
+                  <div class="fa-layers fa-fw fa-2x">
+                    <i class="fas fa-circle icon-primary"></i>
+                    <i class="fas fa-phone icon-white" data-fa-transform="shrink-8"></i>
+                  </div>
+                </div>
+                <div class="media-object-section main-section">
+                  <ul class="no-bullet">
+                    <li>
+                      <a href="tel:+1234567890">(123)-456-7890</a>
+                    </li>
+                    <li><i class="fab fa-fw fa-skype icon-grey"></i><a href="#0">Skype_User</a></li>
+                    <li><i class="fab fa-fw fa-whatsapp icon-grey"></i><a href="#0">WhatsApp_User</a></li>
+                  </ul>
+                  <hr>
+                </div>
+              </div>
+
+              <div class="media-object">
+                <div class="media-object-section">
+                  <div class="fa-layers fa-fw fa-2x">
+                    <i class="fas fa-circle icon-primary"></i>
+                    <i class="fas fa-phone icon-white" data-fa-transform="shrink-8"></i>
+                  </div>
+                </div>
+                <div class="media-object-section main-section">
+                  <ul class="no-bullet">
+                    <li>
+                      <a href="mailto:mail@domain.com">mail@domail.com</a>
+                    </li>
+                    <li><i class="fab fa-fw fa-linkedin icon-grey"></i><a href="#0">LinkedIn</a></li>
+                    <li><i class="fab fa-fw fa-twitter icon-grey"></i><a href="#0">@twitterUser</a></li>
+                  </ul>
+                  <hr>
+                </div>
+              </div>
+
+              <div class="media-object">
+                <div class="media-object-section">
+                  <div class="fa-layers fa-fw fa-2x">
+                    <i class="fas fa-circle icon-primary"></i>
+                    <i class="fas fa-home icon-white" data-fa-transform="shrink-8"></i>
+                  </div>
+                </div>
+                <div class="media-object-section main-section">
+                  <address>
+                    Street Name 123 <br>
+                    ZIP Code and City <br>
+                    Country
+                  </address>
+                  <hr>
+                </div>
+              </div>
+
+              <div class="media-object">
+                <div class="media-object-section">
+                  <div class="fa-layers fa-fw fa-2x">
+                    <i class="fas fa-circle icon-primary"></i>
+                    <i class="fas fa-at icon-white" data-fa-transform="shrink-8"></i>
+                  </div>
+                </div>
+                <div class="media-object-section main-section">
+                  <form>
+                    <div class="input-group">
+                      <label for="name" class="input-group-label">Name:</label>
+                      <input id="name" type="text" name="" value="" class="input-group-field" placeholder="Your Name here">
+                    </div>
+                    <div class="input-group">
+                      <label for="email" class="input-group-label">Name:</label>
+                      <input id="email" type="email" name="" value="" class="input-group-field" placeholder="Your Email here">
+                    </div>
+                    <textarea rows="3" placeholder="Your message here"></textarea>
+                    <button type="submit" class="button small">Send mesage</button>
+                  </form>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="card">
+            <h2 class="card-divider h3 align-center">Portfolio</h2>
+            <div class="card-section">
+
+              <div class="media-object">
+                <div class="media-object-section">
+                  <div class="fa-layers fa-fw fa-2x">
+                    <i class="fas fa-circle icon-primary"></i>
+                    <i class="fas fa-code icon-white" data-fa-transform="shrink-8"></i>
+                  </div>
+                </div>
+                <div class="media-object-section main-section">
+                  <ul class="no-bullet">
+                    <li><i class="fab fa-fw fa-github icon-grey"><a href="#0"></a></i>Github</li>
+                    <li><i class="fab fa-fw fa-codepen icon-grey"><a href="#0"></a></i>CodePen</li>
+                    <li><i class="fab fa-fw fa-stack-overflow icon-grey"><a href="#0"></a></i>Stack Overflow</li>
+                  </ul>
+                  <hr>
+                </div>
+              </div>
+
+              <div class="media-object">
+                <div class="media-object-section">
+                  <div class="fa-layers fa-fw fa-2x">
+                    <i class="fas fa-circle icon-primary"></i>
+                    <i class="fas fa-paint-brush icon-white" data-fa-transform="shrink-8"></i>
+                  </div>
+                </div>
+                <div class="media-object-section main-section">
+                  <ul class="no-bullet">
+                    <li><i class="fab fa-fw fa-behance icon-grey"><a href="#0"></a></i>Behance</li>
+                    <li><i class="fab fa-fw fa-dribbble icon-grey"><a href="#0"></a></i>Dribbble</li>
+                  </ul>
+                  <hr>
+                </div>
+              </div>
+
+              <div class="media-object">
+                <div class="media-object-section">
+                  <div class="fa-layers fa-fw fa-2x">
+                    <i class="fas fa-circle icon-primary"></i>
+                    <i class="fas fa-images icon-white" data-fa-transform="shrink-8"></i>
+                  </div>
+                </div>
+                <div class="media-object-section main-section">
+                  <ul class="no-bullet">
+                    <li><i class="fab fa-fw fa-flicker icon-grey"><a href="#0"></a></i>Flicker</li>
+                    <li><i class="fab fa-fw fa-instagram icon-grey"><a href="#0"></a></i>Instagram</li>
+                  </ul>
+                  <hr>
+                </div>
+              </div>
+
+              <div class="media-object">
+                <div class="media-object-section">
+                  <div class="fa-layers fa-fw fa-2x">
+                    <i class="fas fa-circle icon-primary"></i>
+                    <i class="fas fa-video icon-white" data-fa-transform="shrink-8"></i>
+                  </div>
+                </div>
+                <div class="media-object-section main-section">
+                  <ul class="no-bullet">
+                    <li><i class="fab fa-fw fa-youtube icon-grey"><a href="#0"></a></i>Youtube</li>
+                    <li><i class="fab fa-fw fa-vimeo icon-grey"><a href="#0"></a></i>Viemo</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
 
         </div>
+
       </div>
     </div>
 
